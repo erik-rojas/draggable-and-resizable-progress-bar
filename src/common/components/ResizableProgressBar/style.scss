@@ -1,0 +1,52 @@
+.resizable-progress-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  .percent-value {
+    width: 80px;
+    padding: 0 0px 0 20px;
+    text-align: center;
+  }
+}
+
+.progress-bar-content {
+  width: 800px;
+  height: 20px;
+  background-color: #dedede;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+
+  .order {
+    height: 100%;
+    width: calc(100% - 40px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    color: red;
+  }
+}
+
+.resize-handler {
+  position: absolute;
+  width: 15px;
+  height: 30px;
+  right: -7px;
+  border-radius: 5px;
+  background-color: #1582d4;
+  margin-top: -5px;
+  box-shadow: 1px 1px 2px #005696;
+  cursor: col-resize;
+}
+
+.resizable-bar {
+  display: flex;
+  position: relative;
+  justify-content: flex-end;
+  border: 1px solid #4297d7;
+  background: #5c9ccc url('../../../assets/images/bg_blue_progressbar.png') 50% 50% repeat-x;
+  border-radius: 5px;
+  margin-top: -1px;
+  margin-left: -1px;
+}

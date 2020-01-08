@@ -1,0 +1,26 @@
+.dashboard {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  .drag-drop-context {
+    background-color: #cecece;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 50px;
+
+  }
+
+  .item-content {
+    display: flex;
+    flex-direction: column;
+
+    .progress-bar-group {
+      background-color: #a8a8a8;
+      margin: 10px 5px;
+      padding: 10px;
+      border-radius: 5px;
+      box-shadow: 1px 1px 4px #444444;
+    }
+  }
+}
